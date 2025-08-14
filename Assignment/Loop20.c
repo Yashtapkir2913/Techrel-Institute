@@ -10,7 +10,7 @@ int main() {
     printf("Enter exponent n: ");
     scanf("%d", &n);
 
-    for(int i = 1; i <= n; i++) {
+    for(int i = 1; i <= n; i++) { // can also be done using pow(x,n)
         result =result*x;
     }
 
